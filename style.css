@@ -54,8 +54,7 @@ p{margin-top:50px;
 .heart{display:inline-block;
   text-align:center;
   animation:move 0.8s infinite;
-  -webkit-animation:move 0.8s infinite;
-  -moz-animation:move 0.8s infinite;
+ 
 }
 @keyframes move{
   0%{transform:translateY(0px);}
@@ -65,27 +64,11 @@ p{margin-top:50px;
   100%{transform:translateY(0px);}
   
 }
-@-webkit-keyframes move{
-  0%{transform:translateY(0px);}
-  25%{transform:translateY(-28px);}
-  50%{transform:translateY(0px);}
-  75%{transform:translateY(28px);}
-  100%{transform:translateY(0px);}
-  
-}
-@-moz-keyframes move{
-  0%{transform:translateY(0px);}
-  25%{transform:translateY(-28px);}
-  50%{transform:translateY(0px);}
-  75%{transform:translateY(28px);}
-  100%{transform:translateY(0px);}
-  
-}
+
 .and{text-align:center;
 display:inline-block;
   animation:spin 2s infinite ;
-  -webkit-animation:spin infinite 2s ;
-  -moz-animation:spin infinite 2s ;
+
   padding-left:25px;
   padding-right:20px;
 }
@@ -97,27 +80,11 @@ display:inline-block;
  color:red;
   }
 }
-@-moz-keyframes spin{
-  from{transform:rotateX(0deg);
-  color:white;
-  }
-    to{transform:rotateX(360deg);
- color:red;
-  }
-}
-@-webkit-keyframes spin{
-  from{transform:rotateX(0deg);
-  color:white;
-  }
-    to{transform:rotateX(360deg);
- color:red;
-  }
-}
+
 .headphones{
   display:inline-block;
   animation:goup 0.8s infinite;
-  -webkit-animation:goup 0.8s infinite;
-  -moz-animation:goup 0.8s infinite;
+
 }
 @keyframes goup{0%{transform:translateY(0px);}
   25%{transform:translateY(-28px);}
@@ -126,26 +93,11 @@ display:inline-block;
   100%{transform:translateY(0px);}
   
 }
-@-webkit-keyframes goup{
-  0%{transform:translateY(0px);}
-  25%{transform:translateY(-28px);}
-  50%{transform:translateY(0px);}
-  75%{transform:translateY(28px);}
-  100%{transform:translateY(0px);}
-  
-}
-@-moz-keyframes goup{
-  0%{transform:translateY(0px);}
-  25%{transform:translateY(-28px);}
-  50%{transform:translateY(0px);}
-  75%{transform:translateY(28px);}
-  100%{transform:translateY(0px);}
-  
-}
+
+
 .main{diplay:inline-block;
   animation:change-color 5s infinite;
-  -webkit-animation:change-color 5s infinite;
-  }
+}
 @keyframes change-color{
   0%{color:white;}
   2%{color:#d27979;}
@@ -198,58 +150,19 @@ display:inline-block;
   98%{color:white;}
   100%{color:white;}
 }
-  @-webkit-keyframes change-color{
-  0%{color:white;}
-  2%{color:#d27979;}
-  4%{color:#b3003b;}
-  6%{color:#73264d;}
-  8%{color:#990099;}
-  10%{color:#4d194d;}
-  12%{color:#1a001a;}
-  14%{color:#9900cc;}
-  16%{color:#b84dff;}
-  18%{color:#cc99ff;}
-  20%{color:#666699;}
-  22%{color:#333399;}
-  24%{color:#0000cc;}
-  26%{color:#3333ff;}
-  28%{color:#3366cc;}
-  30%{color:#00ccff;}
-  32%{color:#0099e6;}
-  34%{color:#339966;}
-  36%{color:#339933;}
-  38%{color: #00cc66;}
-  40%{color:#00ff00;}
-  42%{color: #009900;}
-  44%{color:#003300;}
-  46%{color:#336600;}
-  48%{color:#ffff80;}
-  50%{color:#ffff33;}
-  52%{color:#e6e600;}
-  54%{color:#5c5c3d;}
-  56%{color:#d2a679;}
-  58%{color:#996633;}
-  60%{color:#4d3319;}
-  62%{color:#261a0d;}
-  64%{color: #ff99ff;}
-  68%{color:#ff4dff;}
-  70%{color:#cc00cce;}
-  72%{color:#4d004d;}
-  74%{color:#ff3399;}
-  76%{color:#b30059;}
-  78%{color:#ff1a1a;}
-  80%{color:#cc0000;}
-  82%{color:#660000;}
-  84%{color:#4da6ff;}
-  86%{color:#0000ff;}
-  88%{color:#00ff00;}
-  90%{color:#ff0000;}
-  92%{color:#999966;}
-  94%{color: #ffcc00;}
-  96%{color:#cc0099;}
-  98%{color:white;}
-  100%{color:white;}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .evan{display:inline-block;
   animation:big 2s infinite alternate-reverse;
   
